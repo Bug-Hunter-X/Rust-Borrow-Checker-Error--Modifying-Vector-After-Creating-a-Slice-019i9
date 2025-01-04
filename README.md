@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust related to borrowing and modifying vectors.  The core issue stems from creating a slice from a vector and then modifying the vector.  Because the slice references the vector's data, modifications can invalidate the slice, leading to runtime panics. The solution showcases safe techniques for handling this situation.
